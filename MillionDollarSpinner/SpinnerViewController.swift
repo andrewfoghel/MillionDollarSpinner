@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SpinnerViewController.swift
 //  MillionDollarSpinner
 //
 //  Created by Andrew  Foghel on 12/1/18.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SpinnerViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-
+    
 }
-

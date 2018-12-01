@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0B4B1BEA21B250FD00C2B1CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1BE921B250FD00C2B1CD /* AppDelegate.swift */; };
-		0B4B1BEC21B250FD00C2B1CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1BEB21B250FD00C2B1CD /* ViewController.swift */; };
-		0B4B1BEF21B250FD00C2B1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4B1BED21B250FD00C2B1CD /* Main.storyboard */; };
 		0B4B1BF121B250FE00C2B1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4B1BF021B250FE00C2B1CD /* Assets.xcassets */; };
 		0B4B1BF421B250FE00C2B1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4B1BF221B250FE00C2B1CD /* LaunchScreen.storyboard */; };
 		0B4B1BFF21B250FE00C2B1CD /* MillionDollarSpinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1BFE21B250FE00C2B1CD /* MillionDollarSpinnerTests.swift */; };
 		0B4B1C0A21B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1C0921B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift */; };
+		0B4B1C1821B25B0700C2B1CD /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */; };
 		3D25C66A119C94FA8B8AB0B2 /* Pods_MillionDollarSpinnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9AC3B6865347E14B826E53 /* Pods_MillionDollarSpinnerUITests.framework */; };
 		D07354057ABE99C48C917BA6 /* Pods_MillionDollarSpinnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA9077EB52FBECB8E6A52D /* Pods_MillionDollarSpinnerTests.framework */; };
 		E02CCA8419224FF138131476 /* Pods_MillionDollarSpinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5B5CBCCAC458FB74A15273 /* Pods_MillionDollarSpinner.framework */; };
@@ -39,8 +38,6 @@
 /* Begin PBXFileReference section */
 		0B4B1BE621B250FD00C2B1CD /* MillionDollarSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MillionDollarSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4B1BE921B250FD00C2B1CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B4B1BEB21B250FD00C2B1CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0B4B1BEE21B250FD00C2B1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B4B1BF021B250FE00C2B1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B4B1BF321B250FE00C2B1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B4B1BF521B250FE00C2B1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +47,7 @@
 		0B4B1C0521B250FE00C2B1CD /* MillionDollarSpinnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillionDollarSpinnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4B1C0921B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionDollarSpinnerUITests.swift; sourceTree = "<group>"; };
 		0B4B1C0B21B250FE00C2B1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		19E755A76EC211F323EE81A3 /* Pods-MillionDollarSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinner/Pods-MillionDollarSpinner.debug.xcconfig"; sourceTree = "<group>"; };
 		1CFA9077EB52FBECB8E6A52D /* Pods_MillionDollarSpinnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionDollarSpinnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD6503BF2F3FBE4060D9CE9 /* Pods-MillionDollarSpinnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinnerUITests/Pods-MillionDollarSpinnerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,11 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				0B4B1BE921B250FD00C2B1CD /* AppDelegate.swift */,
-				0B4B1BEB21B250FD00C2B1CD /* ViewController.swift */,
-				0B4B1BED21B250FD00C2B1CD /* Main.storyboard */,
 				0B4B1BF021B250FE00C2B1CD /* Assets.xcassets */,
 				0B4B1BF221B250FE00C2B1CD /* LaunchScreen.storyboard */,
 				0B4B1BF521B250FE00C2B1CD /* Info.plist */,
+				0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */,
 			);
 			path = MillionDollarSpinner;
 			sourceTree = "<group>";
@@ -276,7 +273,6 @@
 			files = (
 				0B4B1BF421B250FE00C2B1CD /* LaunchScreen.storyboard in Resources */,
 				0B4B1BF121B250FE00C2B1CD /* Assets.xcassets in Resources */,
-				0B4B1BEF21B250FD00C2B1CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4B1BEC21B250FD00C2B1CD /* ViewController.swift in Sources */,
+				0B4B1C1821B25B0700C2B1CD /* SpinnerViewController.swift in Sources */,
 				0B4B1BEA21B250FD00C2B1CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,14 +453,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0B4B1BED21B250FD00C2B1CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B4B1BEE21B250FD00C2B1CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0B4B1BF221B250FE00C2B1CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
