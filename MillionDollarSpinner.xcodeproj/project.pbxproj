@@ -14,6 +14,9 @@
 		0B4B1BF421B250FE00C2B1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4B1BF221B250FE00C2B1CD /* LaunchScreen.storyboard */; };
 		0B4B1BFF21B250FE00C2B1CD /* MillionDollarSpinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1BFE21B250FE00C2B1CD /* MillionDollarSpinnerTests.swift */; };
 		0B4B1C0A21B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1C0921B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift */; };
+		3D25C66A119C94FA8B8AB0B2 /* Pods_MillionDollarSpinnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9AC3B6865347E14B826E53 /* Pods_MillionDollarSpinnerUITests.framework */; };
+		D07354057ABE99C48C917BA6 /* Pods_MillionDollarSpinnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA9077EB52FBECB8E6A52D /* Pods_MillionDollarSpinnerTests.framework */; };
+		E02CCA8419224FF138131476 /* Pods_MillionDollarSpinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5B5CBCCAC458FB74A15273 /* Pods_MillionDollarSpinner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		0B4B1C0521B250FE00C2B1CD /* MillionDollarSpinnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillionDollarSpinnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4B1C0921B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionDollarSpinnerUITests.swift; sourceTree = "<group>"; };
 		0B4B1C0B21B250FE00C2B1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E755A76EC211F323EE81A3 /* Pods-MillionDollarSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinner/Pods-MillionDollarSpinner.debug.xcconfig"; sourceTree = "<group>"; };
+		1CFA9077EB52FBECB8E6A52D /* Pods_MillionDollarSpinnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionDollarSpinnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD6503BF2F3FBE4060D9CE9 /* Pods-MillionDollarSpinnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinnerUITests/Pods-MillionDollarSpinnerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A9AC3B6865347E14B826E53 /* Pods_MillionDollarSpinnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionDollarSpinnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75ED9F3CD0AFBE96DAC48D33 /* Pods-MillionDollarSpinnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinnerTests/Pods-MillionDollarSpinnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		88AA1B62CCBE8193F57F9759 /* Pods-MillionDollarSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinner/Pods-MillionDollarSpinner.release.xcconfig"; sourceTree = "<group>"; };
+		9E5B5CBCCAC458FB74A15273 /* Pods_MillionDollarSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionDollarSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F54AB05AB661D64DFAC673 /* Pods-MillionDollarSpinnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinnerTests/Pods-MillionDollarSpinnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB86206695B24FF51A9F11B /* Pods-MillionDollarSpinnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinnerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinnerUITests/Pods-MillionDollarSpinnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02CCA8419224FF138131476 /* Pods_MillionDollarSpinner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07354057ABE99C48C917BA6 /* Pods_MillionDollarSpinnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D25C66A119C94FA8B8AB0B2 /* Pods_MillionDollarSpinnerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				0B4B1BFD21B250FE00C2B1CD /* MillionDollarSpinnerTests */,
 				0B4B1C0821B250FE00C2B1CD /* MillionDollarSpinnerUITests */,
 				0B4B1BE721B250FD00C2B1CD /* Products */,
+				2149471A9950A6F5A14D7DBF /* Pods */,
+				A54F080E733FCBC5E7C0EF98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = MillionDollarSpinnerUITests;
 			sourceTree = "<group>";
 		};
+		2149471A9950A6F5A14D7DBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19E755A76EC211F323EE81A3 /* Pods-MillionDollarSpinner.debug.xcconfig */,
+				88AA1B62CCBE8193F57F9759 /* Pods-MillionDollarSpinner.release.xcconfig */,
+				A6F54AB05AB661D64DFAC673 /* Pods-MillionDollarSpinnerTests.debug.xcconfig */,
+				75ED9F3CD0AFBE96DAC48D33 /* Pods-MillionDollarSpinnerTests.release.xcconfig */,
+				DEB86206695B24FF51A9F11B /* Pods-MillionDollarSpinnerUITests.debug.xcconfig */,
+				2BD6503BF2F3FBE4060D9CE9 /* Pods-MillionDollarSpinnerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A54F080E733FCBC5E7C0EF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5B5CBCCAC458FB74A15273 /* Pods_MillionDollarSpinner.framework */,
+				1CFA9077EB52FBECB8E6A52D /* Pods_MillionDollarSpinnerTests.framework */,
+				3A9AC3B6865347E14B826E53 /* Pods_MillionDollarSpinnerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B4B1C0E21B250FE00C2B1CD /* Build configuration list for PBXNativeTarget "MillionDollarSpinner" */;
 			buildPhases = (
+				9EE77AB8A216A7510D3FD272 /* [CP] Check Pods Manifest.lock */,
 				0B4B1BE221B250FD00C2B1CD /* Sources */,
 				0B4B1BE321B250FD00C2B1CD /* Frameworks */,
 				0B4B1BE421B250FD00C2B1CD /* Resources */,
+				A220B5A599CC48F7DC57247D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B4B1C1121B250FE00C2B1CD /* Build configuration list for PBXNativeTarget "MillionDollarSpinnerTests" */;
 			buildPhases = (
+				2DDCE8FB0EFB5DCF67B1C5C5 /* [CP] Check Pods Manifest.lock */,
 				0B4B1BF621B250FE00C2B1CD /* Sources */,
 				0B4B1BF721B250FE00C2B1CD /* Frameworks */,
 				0B4B1BF821B250FE00C2B1CD /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B4B1C1421B250FE00C2B1CD /* Build configuration list for PBXNativeTarget "MillionDollarSpinnerUITests" */;
 			buildPhases = (
+				40ED57F8B398F71A23FBD469 /* [CP] Check Pods Manifest.lock */,
 				0B4B1C0121B250FE00C2B1CD /* Sources */,
 				0B4B1C0221B250FE00C2B1CD /* Frameworks */,
 				0B4B1C0321B250FE00C2B1CD /* Resources */,
@@ -250,6 +294,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDCE8FB0EFB5DCF67B1C5C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MillionDollarSpinnerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40ED57F8B398F71A23FBD469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MillionDollarSpinnerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE77AB8A216A7510D3FD272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MillionDollarSpinner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A220B5A599CC48F7DC57247D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MillionDollarSpinner/Pods-MillionDollarSpinner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MillionDollarSpinner/Pods-MillionDollarSpinner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B4B1BE221B250FD00C2B1CD /* Sources */ = {
@@ -430,6 +565,7 @@
 		};
 		0B4B1C0F21B250FE00C2B1CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E755A76EC211F323EE81A3 /* Pods-MillionDollarSpinner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +583,7 @@
 		};
 		0B4B1C1021B250FE00C2B1CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AA1B62CCBE8193F57F9759 /* Pods-MillionDollarSpinner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +601,7 @@
 		};
 		0B4B1C1221B250FE00C2B1CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F54AB05AB661D64DFAC673 /* Pods-MillionDollarSpinnerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +622,7 @@
 		};
 		0B4B1C1321B250FE00C2B1CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75ED9F3CD0AFBE96DAC48D33 /* Pods-MillionDollarSpinnerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +643,7 @@
 		};
 		0B4B1C1521B250FE00C2B1CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB86206695B24FF51A9F11B /* Pods-MillionDollarSpinnerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +663,7 @@
 		};
 		0B4B1C1621B250FE00C2B1CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD6503BF2F3FBE4060D9CE9 /* Pods-MillionDollarSpinnerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
