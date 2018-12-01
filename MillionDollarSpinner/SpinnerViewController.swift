@@ -10,9 +10,25 @@ import UIKit
 
 class SpinnerViewController: UIViewController {
     
+    let rotatingView = UIView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .white
+        
+        view.addSubview(rotatingView)
+        rotatingView.backgroundColor = .red
+        view.addSubview(rotatingView)
+        setupConstraints()
+        
+    }
+    
+    private func setupConstraints() {
+        rotatingView.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+            make.width.height.equalTo(100)
+        }
     }
     
 }
