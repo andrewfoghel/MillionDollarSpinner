@@ -13,6 +13,7 @@
 		0B4B1BFF21B250FE00C2B1CD /* MillionDollarSpinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1BFE21B250FE00C2B1CD /* MillionDollarSpinnerTests.swift */; };
 		0B4B1C0A21B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1C0921B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift */; };
 		0B4B1C1821B25B0700C2B1CD /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */; };
+		0B4B1C1C21B2622F00C2B1CD /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B1C1B21B2622F00C2B1CD /* TriangleView.swift */; };
 		3D25C66A119C94FA8B8AB0B2 /* Pods_MillionDollarSpinnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9AC3B6865347E14B826E53 /* Pods_MillionDollarSpinnerUITests.framework */; };
 		D07354057ABE99C48C917BA6 /* Pods_MillionDollarSpinnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA9077EB52FBECB8E6A52D /* Pods_MillionDollarSpinnerTests.framework */; };
 		E02CCA8419224FF138131476 /* Pods_MillionDollarSpinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5B5CBCCAC458FB74A15273 /* Pods_MillionDollarSpinner.framework */; };
@@ -48,6 +49,7 @@
 		0B4B1C0921B250FE00C2B1CD /* MillionDollarSpinnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionDollarSpinnerUITests.swift; sourceTree = "<group>"; };
 		0B4B1C0B21B250FE00C2B1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		0B4B1C1B21B2622F00C2B1CD /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		19E755A76EC211F323EE81A3 /* Pods-MillionDollarSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinner/Pods-MillionDollarSpinner.debug.xcconfig"; sourceTree = "<group>"; };
 		1CFA9077EB52FBECB8E6A52D /* Pods_MillionDollarSpinnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionDollarSpinnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD6503BF2F3FBE4060D9CE9 /* Pods-MillionDollarSpinnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarSpinnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MillionDollarSpinnerUITests/Pods-MillionDollarSpinnerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,11 +114,11 @@
 		0B4B1BE821B250FD00C2B1CD /* MillionDollarSpinner */ = {
 			isa = PBXGroup;
 			children = (
+				0B4B1C1921B261C400C2B1CD /* SpinnerComponents */,
 				0B4B1BE921B250FD00C2B1CD /* AppDelegate.swift */,
 				0B4B1BF021B250FE00C2B1CD /* Assets.xcassets */,
 				0B4B1BF221B250FE00C2B1CD /* LaunchScreen.storyboard */,
 				0B4B1BF521B250FE00C2B1CD /* Info.plist */,
-				0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */,
 			);
 			path = MillionDollarSpinner;
 			sourceTree = "<group>";
@@ -137,6 +139,23 @@
 				0B4B1C0B21B250FE00C2B1CD /* Info.plist */,
 			);
 			path = MillionDollarSpinnerUITests;
+			sourceTree = "<group>";
+		};
+		0B4B1C1921B261C400C2B1CD /* SpinnerComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0B4B1C1A21B2622000C2B1CD /* Views */,
+				0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */,
+			);
+			path = SpinnerComponents;
+			sourceTree = "<group>";
+		};
+		0B4B1C1A21B2622000C2B1CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B4B1C1B21B2622F00C2B1CD /* TriangleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		2149471A9950A6F5A14D7DBF /* Pods */ = {
@@ -417,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B4B1C1821B25B0700C2B1CD /* SpinnerViewController.swift in Sources */,
+				0B4B1C1C21B2622F00C2B1CD /* TriangleView.swift in Sources */,
 				0B4B1BEA21B250FD00C2B1CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

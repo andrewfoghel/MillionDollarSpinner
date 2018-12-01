@@ -10,15 +10,13 @@ import UIKit
 
 class SpinnerViewController: UIViewController {
     
-    let rotatingView = UIView()
+    let rotatingView = TriangleView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .white
         
-        view.addSubview(rotatingView)
-        rotatingView.backgroundColor = .red
         view.addSubview(rotatingView)
         setupConstraints()
         handleRotation(for: rotatingView)
