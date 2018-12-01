@@ -10,7 +10,7 @@ import UIKit
 
 class SpinnerViewController: UIViewController {
     
-    let rotatingView = UIView()
+    let rotatingView = TriangleView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
