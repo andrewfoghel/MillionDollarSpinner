@@ -21,13 +21,22 @@ class SpinnerViewController: UIViewController {
         rotatingView.backgroundColor = .red
         view.addSubview(rotatingView)
         setupConstraints()
-        
+        handleRotation(for: rotatingView)
     }
     
     private func setupConstraints() {
         rotatingView.snp.makeConstraints { make in
             make.center.equalToSuperview()
             make.width.height.equalTo(100)
+        }
+    }
+    
+    private func handleRotation(for view: UIView) {
+        print(view.layer.anchorPoint)
+        print(view.layer.position)
+        
+        UIView.animate(withDuration: 3) {
+            view.transform = CGAffineTransform(rotationAngle: CGFloat.pi/4)
         }
     }
     
