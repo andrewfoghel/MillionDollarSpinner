@@ -18,8 +18,6 @@ class SpinnerViewController: UIViewController {
         view.backgroundColor = .white
         
         view.addSubview(rotatingView)
-        rotatingView.backgroundColor = .red
-        view.addSubview(rotatingView)
         setupConstraints()
         handleRotation(for: rotatingView)
     }

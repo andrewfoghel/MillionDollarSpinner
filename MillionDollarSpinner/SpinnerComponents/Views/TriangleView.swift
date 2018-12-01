@@ -16,6 +16,8 @@ class TriangleView : UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        backgroundColor = .clear
     }
     
     required init?(coder aDecoder: NSCoder) {
