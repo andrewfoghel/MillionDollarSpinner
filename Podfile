@@ -11,6 +11,8 @@ target 'MillionDollarSpinner' do
   target 'MillionDollarSpinnerTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
   end
 
   target 'MillionDollarSpinnerUITests' do
