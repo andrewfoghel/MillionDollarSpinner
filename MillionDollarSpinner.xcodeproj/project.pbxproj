@@ -112,11 +112,11 @@
 		0B4B1BE821B250FD00C2B1CD /* MillionDollarSpinner */ = {
 			isa = PBXGroup;
 			children = (
+				0B4B1C1921B261C400C2B1CD /* SpinnerComponents */,
 				0B4B1BE921B250FD00C2B1CD /* AppDelegate.swift */,
 				0B4B1BF021B250FE00C2B1CD /* Assets.xcassets */,
 				0B4B1BF221B250FE00C2B1CD /* LaunchScreen.storyboard */,
 				0B4B1BF521B250FE00C2B1CD /* Info.plist */,
-				0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */,
 			);
 			path = MillionDollarSpinner;
 			sourceTree = "<group>";
@@ -137,6 +137,14 @@
 				0B4B1C0B21B250FE00C2B1CD /* Info.plist */,
 			);
 			path = MillionDollarSpinnerUITests;
+			sourceTree = "<group>";
+		};
+		0B4B1C1921B261C400C2B1CD /* SpinnerComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0B4B1C1721B25B0700C2B1CD /* SpinnerViewController.swift */,
+			);
+			path = SpinnerComponents;
 			sourceTree = "<group>";
 		};
 		2149471A9950A6F5A14D7DBF /* Pods */ = {
