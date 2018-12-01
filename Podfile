@@ -6,6 +6,7 @@ target 'MillionDollarSpinner' do
   use_frameworks!
 
   # Pods for MillionDollarSpinner
+  pod 'SnapKit'
 
   target 'MillionDollarSpinnerTests' do
     inherit! :search_paths
