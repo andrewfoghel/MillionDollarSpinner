@@ -13,6 +13,7 @@ target 'MillionDollarSpinner' do
     # Pods for testing
     pod 'Quick'
     pod 'Nimble'
+    pod 'Nimble-Snapshots'
   end
 
   target 'MillionDollarSpinnerUITests' do
